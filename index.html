@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>WetherTuff</title>
+</head>
+<body class="body">
+    <header>
+        <nav class="header-nav">
+            <input placeholder="знайдіть свое місто" class="header-input" type="text">
+            <button type="submit" onclick="share()" class="header-button"><img src="img/share.png" alt="share"></button>
+        </nav>
+    </header>
+    <main class="main-main">
+        <!--Main-->
+        <section>
+            <!--Main cart-->
+            <div id="main-cart" class="main-cart">
+            </div>
+        </section>
+        <!--first-->
+        <section>
+            <div class="first-div-1">
+                <div id="kyiv" class="kyiv-cart"></div>
+                <div id="london" class="london-cart"></div>
+            </div>
+            <div class="first-div-1">
+                <div id="paris" class="kyiv-cart"></div>
+                <div id="warsaw" class="london-cart"></div>
+            </div>
+        </section>
+        <!--inf-->
+        <section>
+            <h1 class="inf-title">Більше інформації</h1>
+            <img class="inf-img live" src="img/live.png" alt="live">
+            <div class="inf-time">14:15</div>
+            <div class="inf-date">28.12.2023</div>
+        </section>
+        <!--more-->
+        <section id="more-section" class="more-section">
+        </section>
+        <!--first-2-->
+        <section>
+            <div class="first-div-1">
+                <div id="sydney" class="kyiv-cart"></div>
+                <div id="texas" class="london-cart">
+                    <div class="kyiv-main-info">
+                        <div class="kyiv-city">Texas</div>
+                        <img class="kyiv-img" src="img/live.png" alt="img">
+                    </div>
+                    <div class="kyiv-first-div">
+                        <div class="kyiv-temp">34 C°</div>
+                        <a href="#" class="kyiv-more">дета...</a>
+                    </div>
+                </div>
+            </div>
+            <div class="first-div-1">
+                <div id="prague" class="kyiv-cart"></div>
+                <div id="rome" class="london-cart">
+                    <div class="kyiv-main-info">
+                        <div class="kyiv-city">Rome</div>
+                        <img class="kyiv-img" src="img/live.png" alt="img">
+                    </div>
+                    <div class="kyiv-first-div">
+                        <div class="kyiv-temp">34 C°</div>
+                        <a href="#" class="kyiv-more">дета...</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <footer>
+            <p class="footer-p1">WetherTuff</p>
+            <p class="footer-p2">Copyright © 2023 Web Zone</p>
+        </footer>
+    </main>
+    <script src="error.js"></script>
+    <script src="time.js"></script>
+    <script src="main.js"></script>
+    <!--first weather-->
+    <script src="citys/kyiv.js"></script>
+    <script src="citys/london.js"></script>
+    <script src="citys/paris.js"></script>
+    <script src="citys/warsaw.js"></script>
+    <script src="citys/sydney.js"></script>
+    <script src="citys/texas.js"></script>
+    <script src="citys/praha.js"></script>
+    <script src="citys/rome.js"></script>
+</body>
+</html>
